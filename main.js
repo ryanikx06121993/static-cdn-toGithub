@@ -18,3 +18,16 @@ fetch(bootstrapBundle)
     console.error(error);
     console.log("this is error level");
   });
+
+// fetch("bootstrap_js/js_bootstrap.bundle.min.js")
+// fetch(bootstrapBundle)
+//   .then((response) => {
+//     if (response.ok) {
+//       //   return response.json();
+//       return response.text();
+//     } else {
+//       return Promise.reject("something went wrong!");
+//     }
+//   })
+//   .then((data) => console.log(data))
+//   .catch((error) => console.log("error is", error));
